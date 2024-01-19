@@ -1878,7 +1878,7 @@ input[type=radio] + label:before {
 }
 .image.main {
   display: block;
-  height: 22.6em;
+  height: 19.84em;
   border-radius: 0;
 }
 .image.main img {
@@ -2891,6 +2891,11 @@ Slideshow container .slideshow-container {
   /* Main */
   #main > section > .container {
     padding: 2em 0 0 0;
+  }
+  /* Kontakt */
+  #kontakt .kontakt_text {
+    text-align: center;
+    margin: 1em;
   }
   /* Footer */
   #footer {

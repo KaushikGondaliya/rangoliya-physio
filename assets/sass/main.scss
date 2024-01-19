@@ -835,7 +835,7 @@ input[type="radio"] {
 
 	&.main {
 		display: block;
-		height: 22.6em;
+		height: 19.84em;
 		border-radius: 0;
 
 		img {
@@ -2031,6 +2031,13 @@ Slideshow container .slideshow-container {
 		}
 	}
 
+	/* Kontakt */
+	#kontakt {
+		.kontakt_text{
+			text-align: center;
+			margin: 1em;
+		}
+	}
 	/* Footer */
 
 	#footer {
