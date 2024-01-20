@@ -2287,10 +2287,10 @@ input[type=button]:disabled,
   padding-top: 0;
 }
 .features article .image {
-  display: inline-block;
-  padding-right: 2.5em;
+  display: flex;
   vertical-align: middle;
-  width: 48%;
+  width: 100%;
+  justify-content: center;
 }
 .features article .image img {
   display: block;
@@ -2852,16 +2852,6 @@ Slideshow container .slideshow-container {
   /* Features */
   .head {
     width: auto;
-  }
-  .features article .image {
-    display: block;
-    margin: 0 0 2.25em 0;
-    padding-right: 0;
-    width: 100%;
-  }
-  .features article .inner {
-    display: block;
-    width: 100%;
   }
   /* Header */
   #header {

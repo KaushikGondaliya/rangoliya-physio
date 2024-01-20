@@ -1233,10 +1233,10 @@ input[type="button"],
 		}
 
 		.image {
-			display: inline-block;
-			padding-right: 2.5em;
+			display: flex;
 			vertical-align: middle;
-			width: 48%;
+			width: 100%;
+			justify-content: center;
 
 			img {
 				display: block;
@@ -1966,22 +1966,6 @@ Slideshow container .slideshow-container {
 	/* Features */
 	.head {
 		width: auto;
-	}
-
-	.features {
-		article {
-			.image {
-				display: block;
-				margin: 0 0 _size(element-margin) 0;
-				padding-right: 0;
-				width: 100%;
-			}
-
-			.inner {
-				display: block;
-				width: 100%;
-			}
-		}
 	}
 
 	/* Header */
