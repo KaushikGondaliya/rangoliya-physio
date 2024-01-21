@@ -1,6 +1,12 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url("https://fonts.cdnfonts.com/css/vivaldi");
+@font-face {
+  font-family: "Vivaldi";
+  font-weight: 300;
+  font-display: swap;
+  src: URL("https://fonts.cdnfonts.com/css/vivaldi");
+}
 html,
 body,
 div,
