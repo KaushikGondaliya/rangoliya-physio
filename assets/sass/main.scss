@@ -1492,6 +1492,7 @@ Slideshow container .slideshow-container {
 
 		a {
 			border-bottom: none;
+			animation: 1s anim-flipX ease infinite;
 
 			&:hover {
 				color: _palette(header, fg-bold) !important;
@@ -1500,6 +1501,23 @@ Slideshow container .slideshow-container {
 	}
 }
 
+@keyframes anim-flipX {
+	0% {
+	  opacity: 0;
+	  transform: rotateX(90def);
+	}
+	50% {
+	  opacity: 1;
+	  transform: rotateX(720deg);
+	}
+	100% {
+	  /* animate nothing to pause animation at the end */
+	  opacity: 1;
+	  transform: rotateX(720deg);
+	}
+  }
+
+  
 /* Fading animation */
 .fade {
 	animation-name: fade;
