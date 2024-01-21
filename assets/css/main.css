@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url("https://fonts.cdnfonts.com/css/vivaldi");
 html,
 body,
 div,
@@ -2372,9 +2373,36 @@ input[type=button]:disabled,
   margin: 0 auto 2.25em auto;
   width: 8em;
 }
-#header > header h1 {
-  font-size: 1.75em;
+#header > header #logo {
+  background-image: linear-gradient(-225deg, #7d6055 0%, #6A8B90 29%, #887a75 67%, #fff 100%);
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  padding-bottom: 0.3em;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#header > header div {
+  font-size: 1.2em;
   margin: 0;
+}
+#header > header div span:first-of-type {
+  display: block;
+  padding-bottom: 0.7em;
+}
+#header > header div span:nth-child(2) {
+  font-family: "Vivaldi", sans-serif;
+}
+#header > header div span:last-child {
+  font-family: "Vivaldi", sans-serif;
+  font-size: 2em;
 }
 #header > header p {
   color: #e2cfd0;
@@ -2700,6 +2728,16 @@ Slideshow container .slideshow-container {
     border: 0;
     text-decoration: none;
   }
+  #titleBar .title span:first-of-type {
+    display: block;
+  }
+  #titleBar .title span:nth-child(2) {
+    font-family: "Vivaldi", sans-serif;
+  }
+  #titleBar .title span:last-child {
+    font-family: "Vivaldi", sans-serif;
+    font-size: 1.5em;
+  }
   #titleBar .toggle {
     text-decoration: none;
     height: 4em;
@@ -2749,6 +2787,9 @@ Slideshow container .slideshow-container {
     -ms-transform: translateX(0);
     transform: translateX(0);
   }
+  body.header-visible #header div {
+    font-size: 1em;
+  }
 }
 /* Small */
 @media screen and (max-width: 736px) {
@@ -2784,7 +2825,7 @@ Slideshow container .slideshow-container {
     margin: 0 0 1em 1.5em;
   }
   .image.main {
-    height: 12em;
+    height: 14em;
   }
   /* Section/Article */
   header br {
