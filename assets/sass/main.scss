@@ -1332,7 +1332,7 @@ input[type="button"],
 			-webkit-text-fill-color: transparent;
 			animation: textclip 2s linear infinite;
 			display: inline-block;
-			padding-bottom: 0.3em;
+			padding-bottom: 1.7em;
 		}
 
 
@@ -1342,7 +1342,7 @@ input[type="button"],
 			}
 		}
 
-		div {
+		h1 {
 			font-size: 1.2em;
 			margin: 0;
 
@@ -1868,7 +1868,7 @@ Slideshow container .slideshow-container {
 			#header {
 				@include vendor('transform', 'translateX(0)');
 
-				div{
+				h1{
 					font-size: 1em;
 				}
 			}
