@@ -2318,6 +2318,10 @@ input[type=button]:disabled,
   display: block;
 }
 
+#jobs ul {
+  list-style: none;
+}
+
 /* Header */
 #header {
   display: -moz-flex;

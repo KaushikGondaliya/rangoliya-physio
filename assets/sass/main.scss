@@ -7,11 +7,12 @@
 @import url('fontawesome-all.min.css');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url('https://fonts.cdnfonts.com/css/vivaldi');
+
 @font-face {
 	font-family: "Vivaldi";
 	font-weight: 300;
 	font-display: swap;
-    src: URL('https://fonts.cdnfonts.com/css/vivaldi');
+	src: URL('https://fonts.cdnfonts.com/css/vivaldi');
 }
 
 // Breakpoints.
@@ -1031,6 +1032,7 @@ ul.icons {
 	}
 }
 
+
 /* Table */
 
 .table-wrapper {
@@ -1261,6 +1263,10 @@ input[type="button"],
 #five:target,
 #six:target {
 	display: block;
+}
+
+#jobs ul {
+	list-style: none;
 }
 
 /* Header */
@@ -1503,21 +1509,23 @@ Slideshow container .slideshow-container {
 
 @keyframes anim-flipX {
 	0% {
-	  opacity: 0;
-	  transform: rotateX(90def);
+		opacity: 0;
+		transform: rotateX(90def);
 	}
-	50% {
-	  opacity: 1;
-	  transform: rotateX(720deg);
-	}
-	100% {
-	  /* animate nothing to pause animation at the end */
-	  opacity: 1;
-	  transform: rotateX(720deg);
-	}
-  }
 
-  
+	50% {
+		opacity: 1;
+		transform: rotateX(720deg);
+	}
+
+	100% {
+		/* animate nothing to pause animation at the end */
+		opacity: 1;
+		transform: rotateX(720deg);
+	}
+}
+
+
 /* Fading animation */
 .fade {
 	animation-name: fade;
@@ -1868,7 +1876,7 @@ Slideshow container .slideshow-container {
 			#header {
 				@include vendor('transform', 'translateX(0)');
 
-				h1{
+				h1 {
 					font-size: 1em;
 				}
 			}
